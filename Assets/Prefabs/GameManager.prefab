@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1622208938165614}
+  m_IsPrefabAsset: 1
+--- !u!1 &1622208938165614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4910747573482958}
+  - component: {fileID: 114576456807008068}
+  - component: {fileID: 114032585020766650}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4910747573482958
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1622208938165614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0023118183, y: 0.00161376, z: -0.000035194826}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114032585020766650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1622208938165614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9452bd10026e9004797b8e441a2f683e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 8
+  rows: 8
+  wallCount:
+    min: 5
+    max: 9
+  foodCount:
+    min: 1
+    max: 5
+  exit: {fileID: 1839880206615730, guid: 0c7701a53c2483647b7c47f61b73929e, type: 2}
+  floorTiles:
+  - {fileID: 1039564785735478, guid: fdd092c1178e600428cb53cf35f58b10, type: 2}
+  - {fileID: 1991255390911090, guid: b8c317acae7f3814ea95d1943e1d53ca, type: 2}
+  - {fileID: 1239732291656934, guid: 73585e6e6532066469fc68e2fba94f0b, type: 2}
+  - {fileID: 1945793569785746, guid: bd175e456ace95048a9ff794219230c8, type: 2}
+  - {fileID: 1069408795193164, guid: eea213b8cd6cee34893c9dc02f4bd89d, type: 2}
+  - {fileID: 1618556611314204, guid: d77c4ba22c3733a4e90a3a9065299d6a, type: 2}
+  - {fileID: 1565774899415112, guid: 848558be3230714488c1d5d786444363, type: 2}
+  - {fileID: 1038037081667206, guid: d5c6bb42e8ee15743a0f68ad337aecb2, type: 2}
+  wallTiles:
+  - {fileID: 1070730068882088, guid: 56661afdf7c919547a105135d8e4a319, type: 2}
+  - {fileID: 1157503156068748, guid: 9112f55294e862a43bef79b5eea467b5, type: 2}
+  - {fileID: 1450316822825064, guid: de6031782c4074b409d2045fe1063190, type: 2}
+  - {fileID: 1418647461882948, guid: adf7b8ecef9a0e64486a3436511a4783, type: 2}
+  - {fileID: 1250957995325118, guid: 21590f50c4d7f034bb4ef65bb00b4f1c, type: 2}
+  - {fileID: 1778826675691628, guid: 668aab58aac292e4fb2eca476bc0da88, type: 2}
+  - {fileID: 1254495655710982, guid: dd29ad6ffc10c954c9424d12dc1e477f, type: 2}
+  - {fileID: 1888778956323568, guid: 60206d02770132a499a85185d083c862, type: 2}
+  foodTiles:
+  - {fileID: 1815528981418360, guid: 574bb9edd8a0b9347ba78905301533f0, type: 2}
+  - {fileID: 1122631173060564, guid: f3b0102df6651d44eb5123de01dbbcc5, type: 2}
+  enemyTiles:
+  - {fileID: 1721061112114556, guid: 33268a29aca426d46a65c6ca22a7d474, type: 2}
+  - {fileID: 1437661964900520, guid: 284b02eac7a8bc84aaf1911f07e79829, type: 2}
+  outterWalliles:
+  - {fileID: 1474876812522368, guid: 147d494b7d557f742915bdebd77f4fcf, type: 2}
+  - {fileID: 1229791771168004, guid: 3069c7acdc9da194dac0fc5d9bc66126, type: 2}
+  - {fileID: 1715729954588716, guid: 506b0eca8d7f25e48909e6a82df6570f, type: 2}
+--- !u!114 &114576456807008068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1622208938165614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1949bd956e98a458a060fce3425049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardScript: {fileID: 0}
+  playerFoodPoints: 100
+  playersTurn: 1
