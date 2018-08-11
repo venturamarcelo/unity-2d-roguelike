@@ -12,26 +12,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 0001-01-01T00:00:00.000+00:00
-  initializedAtString: 0001-01-01T00:00:00.000+00:00
+  lastUpdatedAtString: 2018-08-11T00:54:15.253-07:00
+  initializedAtString: 2018-08-11T00:35:23.415-07:00
   currentGitRemote:
-    name: 
-    url: 
+    name: origin
+    url: https://github.com/venturamarcelo/unity-2d-roguelike.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: 
-    tracking: 
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: 
+    name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/venturamarcelo/unity-2d-roguelike.git
+    trackingBranch: master
   currentConfigRemote:
-    name: 
-    url: 
-  currentHead: 
+    name: origin
+    url: https://github.com/venturamarcelo/unity-2d-roguelike.git
+  currentHead: 4839236
