@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-08-11T00:49:49.345-07:00
-  initializedAtString: 2018-08-11T00:49:49.345-07:00
-  localBranches: []
+  lastUpdatedAtString: 2018-08-11T17:58:55.381-07:00
+  initializedAtString: 2018-08-11T15:13:18.926-07:00
+  localBranches:
+  - name: master
+    tracking: origin/master
   remoteBranches:
   - name: origin/master
     tracking: '[None]'
@@ -27,8 +29,14 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/venturamarcelo/unity-2d-roguelike.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin

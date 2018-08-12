@@ -10,15 +10,15 @@
 
 [Bb]uild
 
-/[Bb]uilds/
+[Bb]uilds/
 
-/[Ll]ibrary/
+[Ll]ibrary/
 
 sysinfo.txt
 
 *.stackdump
 
-/Assets/AssetStoreTools*
+Assets/AssetStoreTools*
 
 *.apk
 
@@ -36,29 +36,29 @@ sysinfo.txt
 
 .vs/
 
-/*.userprefs
+*.userprefs
 
-/*.csproj
+*.csproj
 
-/*.pidb
+*.pidb
 
 *.pidb.meta
 
-/*.suo
+*.suo
 
-/*.sln*
+*.sln*
 
-/*.user
+*.user
 
-/*.unityproj
+*.unityproj
 
-/*.booproj
+*.booproj
 
 .consulo/
 
-/*.tmp
+*.tmp
 
-/*.svd
+*.svd
 
  
 
