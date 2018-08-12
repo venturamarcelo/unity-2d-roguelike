@@ -12,9 +12,171 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-11T17:58:55.821-07:00
+  lastUpdatedAtString: 2018-08-11T22:49:58.016-07:00
   initializedAtString: 2018-08-11T15:13:21.867-07:00
   log:
+  - commitID: ed47f1939cb7266b776fc4ec25ed391ba45671c3
+    mergeA: 
+    mergeB: 
+    authorName: marcelo
+    authorEmail: marceloventura@outlook.com
+    commitEmail: marceloventura@outlook.com
+    commitName: marcelo
+    summary: Enemy Animator Controller + UI + Levels
+    description: Enemy Animator Controller + UI + Levels
+    timeString: 2018-08-11T18:09:46.000-07:00
+    commitTimeString: 2018-08-11T18:09:46.000-07:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Animation\Controllers\Enemy1.controller
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Assets\Animation\Controllers\Enemy1.controller
+      projectPath: Assets\Animation\Controllers\Enemy1.controller
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Enemy1.prefab
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Assets\Prefabs\Enemy1.prefab
+      projectPath: Assets\Prefabs\Enemy1.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Enemy2.prefab
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Assets\Prefabs\Enemy2.prefab
+      projectPath: Assets\Prefabs\Enemy2.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Main.unity
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Assets\Scenes\Main.unity
+      projectPath: Assets\Scenes\Main.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Enemy.cs
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Assets\Scripts\Enemy.cs
+      projectPath: Assets\Scripts\Enemy.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Enemy.cs.meta
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Assets\Scripts\Enemy.cs.meta
+      projectPath: Assets\Scripts\Enemy.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\GameManager.cs
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Assets\Scripts\GameManager.cs
+      projectPath: Assets\Scripts\GameManager.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\aa\aa1949bd956e98a458a060fce3425049
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\metadata\aa\aa1949bd956e98a458a060fce3425049
+      projectPath: Library\metadata\aa\aa1949bd956e98a458a060fce3425049
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\f3\f370cf2435e5b974195b14c3d6d92d1d
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\metadata\f3\f370cf2435e5b974195b14c3d6d92d1d
+      projectPath: Library\metadata\f3\f370cf2435e5b974195b14c3d6d92d1d
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\marce\Documents\Unity\2D Roguelike\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: ba14fe0ab3e8da200a162c9dc1fc6b05181a8ae4
     mergeA: 
     mergeB: 
